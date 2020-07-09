@@ -1,0 +1,2 @@
+rootProject.name='DefaulViewScanKitDemo'
+include ':app'
