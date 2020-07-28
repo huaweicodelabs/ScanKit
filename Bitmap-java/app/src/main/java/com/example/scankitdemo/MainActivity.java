@@ -76,7 +76,7 @@ public class MainActivity extends Activity {
             // Obtain the bitmap from the image path.
             Bitmap bitmap = ScanUtil.compressBitmap(MainActivity.this, path);
             // Call the decodeWithBitmap method to pass the bitmap.
-			HmsScan[] result1 = ScanUtil.decodeWithBitmap(MainActivity.this, bitmap, new HmsScanAnalyzerOptions.Creator().setHmsScanTypes(0).setPhotoMode(true).create());
+			HmsScan[] result1 = ScanUtil.decodeWithBitmap(MainActivity.this, bitmap, new HmsScanAnalyzerOptions.Creator().setHmsScanTypes(0).setPhotoMode(false).create());
             // Obtain the scanning result.
 			if (result1 != null && result1.length > 0) {
                 if (!TextUtils.isEmpty(result1[0].getOriginalValue())) {
