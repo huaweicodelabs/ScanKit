@@ -17,6 +17,8 @@
 		3849F8B024C9921D00C358A6 /* ScanKitFrameWorkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3849F8AE24C9921D00C358A6 /* ScanKitFrameWorkBundle.bundle */; };
 		3849F8B124C9921D00C358A6 /* ScanKitFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3849F8AF24C9921D00C358A6 /* ScanKitFrameWork.framework */; };
 		3849F8B224C9922800C358A6 /* ScanKitFrameWork.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3849F8AF24C9921D00C358A6 /* ScanKitFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		387A82BA24D10AE5009F9893 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 387A82B824D10AE5009F9893 /* README.md */; };
+		387A82BB24D10AE5009F9893 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 387A82B924D10AE5009F9893 /* LICENSE */; };
 		3890B4E7244A9F1000FDE3E1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890B4E6244A9F1000FDE3E1 /* AssetsLibrary.framework */; };
 		3890B4E9244A9F1800FDE3E1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890B4E8244A9F1800FDE3E1 /* CoreMedia.framework */; };
 		3890B4EB244A9F1E00FDE3E1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890B4EA244A9F1E00FDE3E1 /* CoreVideo.framework */; };
@@ -27,8 +29,6 @@
 		3890B4F5244A9F4000FDE3E1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890B4F4244A9F4000FDE3E1 /* AVFoundation.framework */; };
 		3890B50A244AA1CF00FDE3E1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890B509244AA1CF00FDE3E1 /* libc++.tbd */; };
 		38A7BACF24AF3AE10097F551 /* ScanKitFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A7BACE24AF3AE10097F551 /* ScanKitFrameWork.framework */; };
-		634B0266248770B6005A620C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 634B0268248770B6005A620C /* Localizable.strings */; };
-		638CD7882488820A00558F7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 638CD78A2488820A00558F7A /* InfoPlist.strings */; };
 		63ED9B6A247E497D00BD5D6C /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ED9B69247E497D00BD5D6C /* UIView+Toast.m */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +61,8 @@
 		382F7B82240CE40300718A1A /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		3849F8AE24C9921D00C358A6 /* ScanKitFrameWorkBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ScanKitFrameWorkBundle.bundle; sourceTree = "<group>"; };
 		3849F8AF24C9921D00C358A6 /* ScanKitFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanKitFrameWork.framework; sourceTree = "<group>"; };
+		387A82B824D10AE5009F9893 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		387A82B924D10AE5009F9893 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3890B4E6244A9F1000FDE3E1 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		3890B4E8244A9F1800FDE3E1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		3890B4EA244A9F1E00FDE3E1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -71,12 +73,6 @@
 		3890B4F4244A9F4000FDE3E1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3890B509244AA1CF00FDE3E1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		38A7BACE24AF3AE10097F551 /* ScanKitFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanKitFrameWork.framework; sourceTree = "<group>"; };
-		634B0267248770B6005A620C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		634B026924877152005A620C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		634B027424877866005A620C /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		638CD7892488820A00558F7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		638CD78B2488821400558F7A /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		638CD78C2488821500558F7A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		63ED9B68247E497D00BD5D6C /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
 		63ED9B69247E497D00BD5D6C /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,10 +132,10 @@
 				382F7B3A240CB95C00718A1A /* Assets.xcassets */,
 				382F7B3C240CB95C00718A1A /* LaunchScreen.storyboard */,
 				382F7B3F240CB95C00718A1A /* Info.plist */,
-				638CD78A2488820A00558F7A /* InfoPlist.strings */,
+				387A82B924D10AE5009F9893 /* LICENSE */,
+				387A82B824D10AE5009F9893 /* README.md */,
 				3890B51C244AD40500FDE3E1 /* Public */,
 				382F7B40240CB95C00718A1A /* main.m */,
-				634B0268248770B6005A620C /* Localizable.strings */,
 			);
 			path = UseScanKitFrame;
 			sourceTree = "<group>";
@@ -238,9 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387A82BA24D10AE5009F9893 /* README.md in Resources */,
 				3849F8B024C9921D00C358A6 /* ScanKitFrameWorkBundle.bundle in Resources */,
-				634B0266248770B6005A620C /* Localizable.strings in Resources */,
-				638CD7882488820A00558F7A /* InfoPlist.strings in Resources */,
+				387A82BB24D10AE5009F9893 /* LICENSE in Resources */,
 				382F7B3E240CB95C00718A1A /* LaunchScreen.storyboard in Resources */,
 				382F7B3B240CB95C00718A1A /* Assets.xcassets in Resources */,
 				382F7B39240CB95B00718A1A /* Main.storyboard in Resources */,
@@ -279,27 +275,6 @@
 				382F7B3D240CB95C00718A1A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		634B0268248770B6005A620C /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				634B0267248770B6005A620C /* en */,
-				634B026924877152005A620C /* zh-Hans */,
-				634B027424877866005A620C /* zh-HK */,
-			);
-			name = Localizable.strings;
-			path = lproj;
-			sourceTree = "<group>";
-		};
-		638CD78A2488820A00558F7A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				638CD7892488820A00558F7A /* en */,
-				638CD78B2488821400558F7A /* zh-HK */,
-				638CD78C2488821500558F7A /* zh-Hans */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
