@@ -23,5 +23,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //ScankitSDK
-    implementation "com.huawei.hms:scan:1.2.0.301"
+    implementation "com.huawei.hms:scan:1.2.2.300"
 }
