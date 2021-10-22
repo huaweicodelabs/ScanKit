@@ -29,7 +29,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //ScankitSDK
-    implementation "com.huawei.hms:scan:1.2.0.301"
+    implementation "com.huawei.hms:scan:2.2.0.300"
     implementation 'com.android.support:appcompat-v7:+'
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
