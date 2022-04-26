@@ -1,6 +1,0 @@
-framework module ScanKitFrameWork {
-  umbrella header "ScanKitFrameWork.h"
-
-  export *
-  module * { export * }
-}
