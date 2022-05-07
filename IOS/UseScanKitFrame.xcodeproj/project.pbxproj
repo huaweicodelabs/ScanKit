@@ -27,12 +27,11 @@
 		3890B4F3244A9F3B00FDE3E1 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890B4F2244A9F3B00FDE3E1 /* CoreImage.framework */; };
 		3890B4F5244A9F4000FDE3E1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890B4F4244A9F4000FDE3E1 /* AVFoundation.framework */; };
 		3890B50A244AA1CF00FDE3E1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890B509244AA1CF00FDE3E1 /* libc++.tbd */; };
+		38B046F828265DFE009AFC1A /* ScanKitFrameWorkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 38B046F628265DFE009AFC1A /* ScanKitFrameWorkBundle.bundle */; };
+		38B046FA28265E02009AFC1A /* ScanKitFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B046F728265DFE009AFC1A /* ScanKitFrameWork.framework */; };
+		38B046FB28265E02009AFC1A /* ScanKitFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38B046F728265DFE009AFC1A /* ScanKitFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38B7C59A276982C0008B7CAF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38B7C596276982C0008B7CAF /* Localizable.strings */; };
 		38C584B12750801100F1FC11 /* CameraBitmapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C584AF2750801100F1FC11 /* CameraBitmapViewController.m */; };
-		38C82D2A2817D3FB00E1C34D /* ScanKitFrameWorkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 38C82D282817D3FB00E1C34D /* ScanKitFrameWorkBundle.bundle */; };
-		38C82D2B2817D3FB00E1C34D /* ScanKitFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C82D292817D3FB00E1C34D /* ScanKitFrameWork.framework */; };
-		38C82D2C2817D43B00E1C34D /* ScanKitFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38C82D292817D3FB00E1C34D /* ScanKitFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		38D2DE7427E4319D007EDF88 /* ScanKitFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B8C5BE276996740005B768 /* ScanKitFrameWork.framework */; };
 		63ED9B6A247E497D00BD5D6C /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ED9B69247E497D00BD5D6C /* UIView+Toast.m */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				38C82D2C2817D43B00E1C34D /* ScanKitFrameWork.framework in Embed Frameworks */,
+				38B046FB28265E02009AFC1A /* ScanKitFrameWork.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,14 +82,14 @@
 		3890B4F2244A9F3B00FDE3E1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		3890B4F4244A9F4000FDE3E1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3890B509244AA1CF00FDE3E1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		38B046F628265DFE009AFC1A /* ScanKitFrameWorkBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ScanKitFrameWorkBundle.bundle; path = UseScanKitFrame/ScanKitFrameWorkBundle.bundle; sourceTree = "<group>"; };
+		38B046F728265DFE009AFC1A /* ScanKitFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanKitFrameWork.framework; path = UseScanKitFrame/ScanKitFrameWork.framework; sourceTree = "<group>"; };
 		38B7C597276982C0008B7CAF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		38B7C598276982C0008B7CAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		38B7C599276982C0008B7CAF /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		38B8C5BE276996740005B768 /* ScanKitFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanKitFrameWork.framework; sourceTree = "<group>"; };
 		38C584AF2750801100F1FC11 /* CameraBitmapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraBitmapViewController.m; sourceTree = "<group>"; };
 		38C584B02750801100F1FC11 /* CameraBitmapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBitmapViewController.h; sourceTree = "<group>"; };
-		38C82D282817D3FB00E1C34D /* ScanKitFrameWorkBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ScanKitFrameWorkBundle.bundle; path = UseScanKitFrame/ScanKitFrameWorkBundle.bundle; sourceTree = "<group>"; };
-		38C82D292817D3FB00E1C34D /* ScanKitFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanKitFrameWork.framework; path = UseScanKitFrame/ScanKitFrameWork.framework; sourceTree = "<group>"; };
 		63ED9B68247E497D00BD5D6C /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
 		63ED9B69247E497D00BD5D6C /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,9 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C82D2B2817D3FB00E1C34D /* ScanKitFrameWork.framework in Frameworks */,
 				3890B50A244AA1CF00FDE3E1 /* libc++.tbd in Frameworks */,
-				38D2DE7427E4319D007EDF88 /* ScanKitFrameWork.framework in Frameworks */,
+				38B046FA28265E02009AFC1A /* ScanKitFrameWork.framework in Frameworks */,
 				3890B4F5244A9F4000FDE3E1 /* AVFoundation.framework in Frameworks */,
 				3890B4F3244A9F3B00FDE3E1 /* CoreImage.framework in Frameworks */,
 				3890B4F1244A9F3600FDE3E1 /* CoreGraphics.framework in Frameworks */,
@@ -120,8 +118,8 @@
 		382F7B22240CB95B00718A1A = {
 			isa = PBXGroup;
 			children = (
-				38C82D292817D3FB00E1C34D /* ScanKitFrameWork.framework */,
-				38C82D282817D3FB00E1C34D /* ScanKitFrameWorkBundle.bundle */,
+				38B046F728265DFE009AFC1A /* ScanKitFrameWork.framework */,
+				38B046F628265DFE009AFC1A /* ScanKitFrameWorkBundle.bundle */,
 				382F7B2D240CB95B00718A1A /* UseScanKitFrame */,
 				382F7B2C240CB95B00718A1A /* Products */,
 				3890B4E5244A9F0F00FDE3E1 /* Frameworks */,
@@ -273,7 +271,7 @@
 			files = (
 				38B7C59A276982C0008B7CAF /* Localizable.strings in Resources */,
 				382F7B3E240CB95C00718A1A /* LaunchScreen.storyboard in Resources */,
-				38C82D2A2817D3FB00E1C34D /* ScanKitFrameWorkBundle.bundle in Resources */,
+				38B046F828265DFE009AFC1A /* ScanKitFrameWorkBundle.bundle in Resources */,
 				382F7B3B240CB95C00718A1A /* Assets.xcassets in Resources */,
 				382F7B39240CB95B00718A1A /* Main.storyboard in Resources */,
 			);
@@ -450,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.0.302;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 248VU829V8;
 				ENABLE_BITCODE = NO;
@@ -466,7 +465,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.0.302;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.ScanKit;
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.0.302;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 248VU829V8;
 				ENABLE_BITCODE = NO;
@@ -502,7 +502,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.0.302;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.ScanKit;
